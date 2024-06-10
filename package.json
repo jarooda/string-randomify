@@ -1,0 +1,24 @@
+{
+  "name": "string-randomify",
+  "version": "1.0.0",
+  "description": "This package is used to generate random strings of a given length.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest"
+  },
+  "keywords": [
+    "random",
+    "string",
+    "randomify",
+    "generator"
+  ],
+  "author": "Jalu Wibowo Aji <jaluwibowoaji@gmail.com> (https://jaluwibowo.id)",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.14.2",
+    "typescript": "^5.4.5",
+    "vitest": "^1.6.0"
+  }
+}
