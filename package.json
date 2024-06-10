@@ -1,13 +1,7 @@
 {
   "name": "string-randomify",
   "version": "1.0.0",
-  "description": "This package is used to generate random strings of a given length.",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
-  "scripts": {
-    "build": "tsc",
-    "test": "vitest"
-  },
+  "description": "Generate random string with custom length and characters",
   "keywords": [
     "random",
     "string",
@@ -15,7 +9,21 @@
     "generator"
   ],
   "author": "Jalu Wibowo Aji <jaluwibowoaji@gmail.com> (https://jaluwibowo.id)",
-  "license": "ISC",
+  "license": "MIT",
+  "homepage": "https://github.com/jarooda/string-randomify#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jarooda/string-randomify"
+  },
+  "bugs": {
+    "url": "https://github.com/jarooda/string-randomify/issues"
+  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest"
+  },
   "devDependencies": {
     "@types/node": "^20.14.2",
     "typescript": "^5.4.5",
